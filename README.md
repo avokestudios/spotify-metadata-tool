@@ -2,6 +2,18 @@
 
 This Python-based tool was developed as part of a university dissertation exploring how metadata influences the visibility and discoverability of lo-fi artists on Spotify. It automates the collection, organisation, and visualisation of track- and artist-level metadata using Spotify’s Web API.
 
+API Credentials (Required)
+This tool uses the Spotify Web API, which requires a Client ID and Client Secret for access.
+
+For security reasons, the credentials are not included in this public repository. Exposing them would allow others to misuse my develepor account and may result in Spotify revoking access to the app.
+
+How to get your own?
+Go to Spotify Developer Dashboard
+
+Log in and create a new app (or use an existing one)
+
+Copy your Client ID and Client Secret to the main combinedapp repository and off you go!
+
 ## API Access Notes
 This tool uses Spotify's Client Credentials Flow and may be limited by API restrictions on playlist type or audio feature access. See /limitations.md for a breakdown of known issues and suggested workarounds.
 
