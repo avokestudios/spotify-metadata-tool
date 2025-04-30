@@ -26,8 +26,8 @@ from wordcloud import WordCloud
 uploaded_files = []
 
 # ----------------------- METADATA APP FUNCTIONS ----------------------- #
-CLIENT_ID = "206d3b06da384ae480d33a632e22a2a8"
-CLIENT_SECRET = "d2ae0af919bc4064beec6a35070878fa"
+CLIENT_ID = "206d3b06da384ae480d33a632e22a2a8" ## 'your-client-id'
+CLIENT_SECRET = ##'Your client secret'
 
 def authenticate_spotify():
     client_credentials_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
